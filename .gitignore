@@ -1,0 +1,10 @@
+# Virtual environment
+venv/
+*.pyc
+__pycache__/
+# Static files
+staticfiles/
+
+# Environment variables
+.env
+
