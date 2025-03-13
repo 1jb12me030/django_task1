@@ -7,8 +7,8 @@ This project is a Django-based RESTful API for task management with CRUD functio
 ### Prerequisites
 - Python 3.10 or above
 - Django 4.x
-- PostgreSQL (or compatible Aurora DB)
-- Redis (optional for improved caching)
+- PostgreSQL 
+- caching built-in feature.
 
 ### Installation Steps
 1. Clone the repository:
@@ -105,11 +105,16 @@ CREATE TABLE tasks (
 CREATE INDEX idx_status ON tasks (status);
 ```
 
+## To check test caes
+- python manage.py test
+## To implement auto-scaling logic
+-python manage.py auto-scaling
+
 ## 📋 Evaluation Criteria
 - **PEP 8 Compliance:** Code follows best practices for readability and maintainability.
 - **Django ORM:** Efficient use of ORM for data queries.
 - **AWS Concepts:** Simulated Lambda logic ensures scalability and efficient notifications.
 - **Documentation Quality:** Clear instructions, design reasoning, and endpoint details provided.
 
-For any issues or contributions, please create a pull request or raise an issue. 😊
+ 
 
